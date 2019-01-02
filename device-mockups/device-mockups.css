@@ -388,11 +388,11 @@
 }
 .device-mockup.iphone_x > .device > .screen,
 .device-mockup.iphone_x.portrait > .device > .screen {
-	top: 2.98%; bottom: 2.98%; left: 5.8%; right: 5.5%;
+	top: 2.9%; bottom: 3.3%; left: 5.8%; right: 5.5%;
 	z-index: -1;
 }
 .device-mockup.iphone_x.landscape > .device > .screen {
-	top: 5.5%; bottom: 5.8%; left: 3%; right: 3%;
+	top: 5.5%; bottom: 5.8%; left: 2.9%; right: 3.3%;
 	z-index: -1;
 }
 
