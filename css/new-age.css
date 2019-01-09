@@ -75,6 +75,7 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  font-weight: 500;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -161,16 +162,18 @@ header.masthead {
   background: #3970db;
   background: -webkit-gradient(linear, right top, left top, from(#3970db), to(#309ad8));
   background: linear-gradient(to left, #3970db, #309ad8);
+  background: center/cover no-repeat url("../img/saulo-mohana-78181-unsplash.jpg");
 }
 
 header.masthead .header-content {
-  max-width: 500px;
+  height: 100%;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.masthead .header-content h1 {
   font-size: 30px;
+  font-weight: 500;
 }
 
 header.masthead .device-container {
@@ -192,10 +195,16 @@ header.masthead .device-container .screen img {
   }
   header.masthead .header-content {
     margin-bottom: 0;
-    text-align: left;
+    text-align: center;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 60px;
+    margin-top: 10%;
+    margin-bottom: 50%;
+  }
+  header.masthead .header-content .btn {
+    font-size: 1.2rem;
+    font-weight: 500;
   }
   header.masthead .device-container {
     max-width: 325px;

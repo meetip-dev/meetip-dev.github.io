@@ -10,13 +10,15 @@ header.masthead {
     background: $theme-secondary;
     background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background: center / cover no-repeat url('../img/saulo-mohana-78181-unsplash.jpg');
     .header-content {
-        max-width: 500px;
+        height: 100%;
         margin-bottom: 100px;
 
         text-align: center;
         h1 {
             font-size: 30px;
+            font-weight: 500;
         }
     }
     .device-container {
@@ -35,9 +37,15 @@ header.masthead {
         .header-content {
             margin-bottom: 0;
 
-            text-align: left;
+            text-align: center;
             h1 {
-                font-size: 50px;
+                font-size: 60px;
+                margin-top: 10%;
+                margin-bottom: 50%;
+            }
+            .btn {
+                font-size: 1.2rem;
+                font-weight: 500
             }
         }
         .device-container {
