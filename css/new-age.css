@@ -248,7 +248,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 section.features .section-heading h2 {
@@ -276,8 +276,8 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -293,6 +293,11 @@ section.features .feature-item i {
   background: linear-gradient(to left, #3970db, #309ad8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+section.features .feature-item .svg-container {
+  width: 100%;
+  padding: 10%;
 }
 
 section.cta {
